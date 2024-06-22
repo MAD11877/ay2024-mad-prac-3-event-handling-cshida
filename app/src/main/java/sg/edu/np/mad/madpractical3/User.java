@@ -5,7 +5,7 @@ public class User {
     public String id;
     public int description;
     public boolean followed;
-    public User(String name,String id, int description, boolean followed){
+    public User(String name, String id, int description, boolean followed){
         this.name = name;
         this.id = id;
         this.description = description;
