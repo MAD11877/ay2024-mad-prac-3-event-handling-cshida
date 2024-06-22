@@ -2,16 +2,13 @@ package sg.edu.np.mad.madpractical3;
 
 public class User {
     public String name;
-    public String id;
-    public int description;
+    public String description;
+    public int id;
     public boolean followed;
-    public User(String name, String id, int description, boolean followed){
+    public User (String name, String description, int id, boolean followed){
         this.name = name;
-        this.id = id;
         this.description = description;
-        this.followed= followed;
-
-
+        this.id = id;
+        this.followed = followed;
     }
-
 }
